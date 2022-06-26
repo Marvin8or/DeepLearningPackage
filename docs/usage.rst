@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use Deep Learning Package From Scratch in a project::
+To use DeepLearning in a project::
 
-    import deep_learning_package_from_scratch
+    import deeplearning

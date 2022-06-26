@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/Marvin8or/deep_learning_package_from_scratch/issues.
+Report bugs at https://github.com/Marvin8or/deeplearning/issues.
 
 If you are reporting a bug, please include:
 
@@ -38,14 +38,14 @@ and "help wanted" is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-Deep Learning Package From Scratch could always use more documentation, whether as part of the
-official Deep Learning Package From Scratch docs, in docstrings, or even on the web in blog posts,
+DeepLearning could always use more documentation, whether as part of the
+official DeepLearning docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/Marvin8or/deep_learning_package_from_scratch/issues.
+The best way to send feedback is to file an issue at https://github.com/Marvin8or/deeplearning/issues.
 
 If you are proposing a feature:
 
@@ -57,17 +57,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `deep_learning_package_from_scratch` for local development.
+Ready to contribute? Here's how to set up `deeplearning` for local development.
 
-1. Fork the `deep_learning_package_from_scratch` repo on GitHub.
+1. Fork the `deeplearning` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/deep_learning_package_from_scratch.git
+    $ git clone git@github.com:your_name_here/deeplearning.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv deep_learning_package_from_scratch
-    $ cd deep_learning_package_from_scratch/
+    $ mkvirtualenv deeplearning
+    $ cd deeplearning/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -78,7 +78,7 @@ Ready to contribute? Here's how to set up `deep_learning_package_from_scratch` f
 
 5. When you're done making changes, check that your changes pass flake8 and the tests, including testing other Python versions with tox::
 
-    $ flake8 deep_learning_package_from_scratch tests
+    $ flake8 deeplearning tests
     $ python setup.py test or py.test
     $ tox
 
@@ -102,7 +102,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.6, 2.7, 3.3, 3.4 and 3.5, and for PyPy. Check
-   https://travis-ci.org/Marvin8or/deep_learning_package_from_scratch/pull_requests
+   https://travis-ci.org/Marvin8or/deeplearning/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips
@@ -110,5 +110,5 @@ Tips
 
 To run a subset of tests::
 
-$ py.test tests.test_deep_learning_package_from_scratch
+$ py.test tests.test_deeplearning
 

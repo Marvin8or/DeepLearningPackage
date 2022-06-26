@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-test_deep_learning_package_from_scratch
+test_deeplearning
 ----------------------------------
 
-Tests for `deep_learning_package_from_scratch` module.
+Tests for `deeplearning` module.
 """
 
 import pytest
@@ -13,8 +13,8 @@ import pytest
 from contextlib import contextmanager
 from click.testing import CliRunner
 
-from deep_learning_package_from_scratch import deep_learning_package_from_scratch
-from deep_learning_package_from_scratch import cli
+from deeplearning import deeplearning
+from deeplearning import cli
 
 
 @pytest.fixture
@@ -35,7 +35,7 @@ def test_command_line_interface():
     runner = CliRunner()
     result = runner.invoke(cli.main)
     assert result.exit_code == 0
-    assert 'deep_learning_package_from_scratch.cli.main' in result.output
+    assert 'deeplearning.cli.main' in result.output
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output

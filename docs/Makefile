@@ -85,17 +85,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/deep_learning_package_from_scratch.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/deeplearning.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/deep_learning_package_from_scratch.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/deeplearning.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/deep_learning_package_from_scratch"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/deep_learning_package_from_scratch"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/deeplearning"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/deeplearning"
 	@echo "# devhelp"
 
 epub:

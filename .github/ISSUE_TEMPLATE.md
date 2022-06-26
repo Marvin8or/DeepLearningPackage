@@ -1,4 +1,4 @@
-* Deep Learning Package From Scratch version:
+* DeepLearning version:
 * Python version:
 * Operating System:
 

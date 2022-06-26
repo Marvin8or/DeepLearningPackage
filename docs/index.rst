@@ -1,4 +1,4 @@
-Welcome to Deep Learning Package From Scratch's documentation!
+Welcome to DeepLearning's documentation!
 ======================================
 
 Contents:

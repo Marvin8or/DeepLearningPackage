@@ -6,6 +6,6 @@ GLOBALS = {
 }
 
 
-FILES = ["setup.py", "deep_learning_package_from_scratch/__init__.py"]
+FILES = ["setup.py", "deeplearning/__init__.py"]
 
 VERSION = ['major', 'minor', 'patch']

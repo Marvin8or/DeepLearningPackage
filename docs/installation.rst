@@ -8,13 +8,13 @@ Installation
 Stable release
 --------------
 
-To install Deep Learning Package From Scratch, run this command in your terminal:
+To install DeepLearning, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install deep_learning_package_from_scratch
+    $ pip install deeplearning
 
-This is the preferred method to install Deep Learning Package From Scratch, as it will always install the most recent stable release. 
+This is the preferred method to install DeepLearning, as it will always install the most recent stable release. 
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -26,19 +26,19 @@ you through the process.
 From sources
 ------------
 
-The sources for Deep Learning Package From Scratch can be downloaded from the `Github repo`_.
+The sources for DeepLearning can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/Marvin8or/deep_learning_package_from_scratch
+    $ git clone git://github.com/Marvin8or/deeplearning
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/Marvin8or/deep_learning_package_from_scratch/tarball/master
+    $ curl  -OL https://github.com/Marvin8or/deeplearning/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/Marvin8or/deep_learning_package_from_scratch
-.. _tarball: https://github.com/Marvin8or/deep_learning_package_from_scratch/tarball/master
+.. _Github repo: https://github.com/Marvin8or/deeplearning
+.. _tarball: https://github.com/Marvin8or/deeplearning/tarball/master
