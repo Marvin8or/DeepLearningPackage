@@ -1,5 +1,5 @@
-from deep_learning_package_from_scratch.utilities import *
-from deep_learning_package_from_scratch.datasets import generate_dummy_dataset
+from deeplearning import *
+from datasets import generate_dummy_dataset
 import numpy as np
         
 if __name__ == "__main__":
@@ -10,6 +10,7 @@ if __name__ == "__main__":
     
     # Build neural network
     simple_network = NeuralNetwork(2)
+
     simple_network.add_layer(number_of_neurons=5, activation_function="ReLU")
     simple_network.add_layer(number_of_neurons=4, activation_function="ReLU")
     simple_network.add_layer(number_of_neurons=3, activation_function="ReLU")
@@ -17,7 +18,6 @@ if __name__ == "__main__":
 
     # Print network layout
     simple_network.print_layout()
-
     # Feed forward
     X, y = AND_operation_recognition_dataset[0, :2], AND_operation_recognition_dataset[0, 2]
     first_input = np.array([X]).T
